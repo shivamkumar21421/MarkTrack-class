@@ -22,7 +22,7 @@ if (process.env.MONGODB_URI) {
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'https://marktrack-frontend.netlify.app',
+    origin: 'https://taupe-dieffenbachia-9a582e.netlify.app/login',
     credentials: true,
   })
 );
