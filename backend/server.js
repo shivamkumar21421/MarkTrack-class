@@ -22,7 +22,7 @@ if (process.env.MONGODB_URI) {
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: process.env.CLIENT_URL || 'https://marktrack-frontend.netlify.app',
     credentials: true,
   })
 );
